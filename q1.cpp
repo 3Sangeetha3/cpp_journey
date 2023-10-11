@@ -36,6 +36,7 @@ TodayTodayTodayTodayToday
 TodayTodayTodayTodayToday
 
 */
+
 #include <iostream>
 #include <string>
 using namespace std;
@@ -55,16 +56,16 @@ public:
         return MyString(result);
     }
     void print() const {
-        std::cout << str << std::endl;
+        cout << str << std::endl;
     }
 };
 
 int main() {
-    std::string str1, str2;
+    string str1, str2;
     int n;
-    std::getline(std::cin, str1);
-    std::getline(std::cin, str2);
-    std::cin >> n;
+    getline(std::cin, str1);
+    getline(std::cin, str2);
+    cin >> n;
     MyString myStr1(str1), myStr2(str2);
     MyString concat = myStr1 + myStr2;
     concat.print();
