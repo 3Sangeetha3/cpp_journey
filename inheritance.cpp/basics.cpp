@@ -5,7 +5,7 @@ using namespace std;
 
 class Dad                               //Base class
 {
-    protected:
+    protected:                          //only inherited class can use this data
         int amount;
     public:
         void input()
