@@ -1,3 +1,4 @@
+//Multiplication of three numbers using hybrid inheritance
 #include <iostream> 
 using namespace std; 
 
