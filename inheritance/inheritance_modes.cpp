@@ -5,13 +5,13 @@
 using namespace std;
 class A { 
 public: 
-	int x = 10; 
+	int x; 
 
 protected: 
-	int y = 20; 
+	int y; 
 
 private: 
-	int z = 30; 
+	int z; 
 }; 
 
 class B : public A { 
