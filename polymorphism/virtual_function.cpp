@@ -12,5 +12,5 @@ int main()
     A *ptr = &ob;
     b.display();
     b.A::display();
-    ptr->display();
+    ptr->display();         ///in function overriding it will print Base class but since we made base class as virtual it will print as Child class.
 }
